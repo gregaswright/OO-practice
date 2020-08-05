@@ -1,7 +1,7 @@
 require 'pry'
-require './chest.rb'
-require './sibling.rb'
-require './toy.rb'
+require './app/models/chest.rb'
+require './app/models/sibling.rb'
+require './app/models/toy.rb'
 
 
 jimmy = Sibling.new("Jimmy", 8)
